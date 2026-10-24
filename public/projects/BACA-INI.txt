@@ -1,0 +1,14 @@
+Taruh foto project kamu di folder ini.
+
+Contoh: go-padel.jpg, winnigram.jpg, dst.
+
+Abis itu buka file data/profile.js, cari project yang sesuai,
+terus di baris "cover:" ganti pathnya, contoh:
+
+cover: "/projects/go-padel.jpg",
+
+(file di folder public/ diakses langsung pakai "/nama-file", gak perlu
+tulis "public/" di depannya)
+
+Kalau foto belum diisi/filenya belum ada, otomatis bakal tampil tulisan
+"project thumbnail" aja di kartunya — gak error.
